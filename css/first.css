@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/first.avif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background:rgba(0, 0, 0, 0.5) ;
+}
+.detail{
+    padding-top: 15rem;
+    padding-left: 10rem;
+}
+.detail h1{
+    font-size: 6vw;
+    color: #fff;
+}
+.detail h2{
+    font-size: 6vw;
+    color: #fff;
+    padding-bottom: 2rem;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns button{
+    margin: 2rem;
+    border: none;
+    width: 120px;
+    height: 35px;
+    background: #fff;
+    color: rgb(98,210,162);
+    border-radius: 5px;
+
+}
+.btns button a{
+    background: transparent;
+    color: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+
+    color: rgb(98,210,162);
+    
+}
+.btns button a:hover{
+    color: #fff;
+}
+.btns button:hover{
+    background: transparent;
+    color: rgb(98,210,162);
+    border: 2px solid #fff;
+}
+@media(max-width:1250px){
+    .detail{
+        padding-top: 20rem;
+        padding-left: 10rem;
+    }
+}
+@media(max-width:1000px){
+    .detail{
+        padding-top: 20rem;
+        padding-left: 5rem;
+    }
+    .detail h1{
+        font-size: 6vw;
+        color: #fff;
+    }
+    .detail h2{
+        font-size: 6vw;
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+}
+@media(max-width:650px){
+    .detail{
+        padding-top: 20rem;
+        padding-left: 2rem;
+        font-size: 12vw;
+
+    }
+    .detail h1{
+        font-size: 6.2vw;
+        color: #fff;
+    }
+    .detail h2{
+        font-size: 6.2vw;
+        color: #fff;
+        padding-bottom: 2rem;
+    }
+}

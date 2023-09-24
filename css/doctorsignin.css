@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    width: 100%;
+}
+
+.form form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form form .name_email {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.2s ease-out;
+}
+
+.form form .name_email .name {
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid #807b7b;
+}
+
+.form form .name_email .name input {
+    width: 100%;
+    height: 100%;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+
+}
+
+.name_btn {
+    width: 20%;
+    height: 35px;
+    background: transparent;
+    border: none;
+}
+
+.name_btn button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: rgb(16, 69, 204);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    outline: none;
+
+}
+.forgot{
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 1rem;
+}
+.forgot a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+/* media query */
+
+@media(max-width:1050px) {
+    .name {
+        width: 100%;
+    }
+
+    .pass {
+        width: 100%;
+    }
+
+    .skill {
+        width: 100%;
+    }
+    .signup{
+        width: 30%;
+    }
+    .phone_btn{
+        width: 30%;
+    }
+    .name_btn{
+        width: 30%;
+    }
+    .main{
+        width: 95%;
+        margin-top: 15rem;
+    }
+}
+@media(max-width:700px){
+    .main {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+}
+@media(max-width:450px){
+    .name_btn{
+        width: 45%;
+    }
+    .phone_btn{
+        width: 45%;
+    }
+    .signup{
+        width: 45%;
+    }
+}
